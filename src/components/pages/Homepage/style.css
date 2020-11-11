@@ -1,0 +1,19 @@
+#aboutmepic {
+    border-radius: 30px;
+    max-height: 200px;
+    max-width: 200px;
+    float:left;
+    margin: 15px;
+}
+
+.container {
+    color: burlywood;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: rgb(81, 88, 81);
+    padding:30px;
+    margin-left: 50px;
+    
+}
+
