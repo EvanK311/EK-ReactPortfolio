@@ -16,14 +16,14 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          to="/appfolio"
+          className={location.pathname === "/appfolio" ? "nav-link active" : "nav-link"}
         >
-          About
+          Appfolio
         </Link>
       </li>      
       <li className="nav-item">
-      <span class="navbar-text"><a href = "https://drive.google.com/file/d/15PfWJi5uYzsz5DrAHL9RkZNviR5E1iX5/view?usp=sharing">My Resume</a>
+      <span class="navbar-text"><a href = "https://drive.google.com/file/d/15PfWJi5uYzsz5DrAHL9RkZNviR5E1iX5/view?usp=sharing" target="_blank">My Resume</a>
       </span>
       </li>
       
