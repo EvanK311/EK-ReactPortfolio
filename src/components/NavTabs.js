@@ -16,10 +16,10 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          to="/appfolio"
+          className={location.pathname === "Appfoliopage/appfolio" ? "nav-link active" : "nav-link"}
         >
-          About
+          Appfolio
         </Link>
       </li>      
       <li className="nav-item">
