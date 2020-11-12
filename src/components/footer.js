@@ -4,7 +4,8 @@ import "./footer.css"
 function Footer() {
   return (
     <footer className="footer">
-    <p id="namecopy">&copy;Evan K.</p>
+    <a href="https://github.com/EvanK311">Github |</a><a href="https://www.linkedin.com/in/evan-kirkland-297254158/">| LinkedIn</a>
+    
   </footer>
   );
 }

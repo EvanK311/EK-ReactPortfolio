@@ -4,18 +4,21 @@ import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Homepage/Home";
 import About from "./components/pages/Appfoliopage/Appfolio";
 import Contact from "./components/pages/Contactpage/Contact";
+import Footer from "./components/footer"
 
 
 function App() {
   return (
+    <div>
     <Router>
       <div>
         <NavTabs />
         <Route exact path="/" component={Home} />
-        <Route exact path="/appfolio" component={About} />        
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/appfolio" component={About} />       
       </div>
     </Router>
+      <Footer />
+      </div>
   );
 }
 
