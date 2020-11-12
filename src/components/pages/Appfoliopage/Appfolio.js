@@ -4,6 +4,8 @@ import password from "../../../pics/Capture.PNG"
 import forcaster from "../../../pics/resultscreen.PNG"
 import discovery from "../../../pics/venu-logo-large.png"
 import petwork from "../../../pics/petwork.png"
+import scheduler from "../../../pics/scheduler.PNG"
+import notes from "../../../pics/notetaker.PNG"
 
 function Appfolio() {
   return (
@@ -33,13 +35,15 @@ function Appfolio() {
                 <img src={forcaster} id="pic4" className="PortPic img-fluid img-thumbnail" alt="screen of weather app"/>
             </column>
         </row>       
-        <row>
+        <row className="row">
         <column className="column-md-6 col-lg-6 col-xs-6">
-               <h5><a href = "https://evank311.github.io/EK-forcaster/" >Simple Weather Forcaster</a></h5>
-                <img src={forcaster} id="pic4" className="PortPic img-fluid img-thumbnail" alt="screen of weather app"/>
+               <h5><a href = "https://evank311.github.io/EK-DayPlanner/" >Work Day Scheduler</a></h5>
+                <img src={scheduler} id="pic5" className="PortPic img-fluid img-thumbnail" alt="screen of weather app"/>
             </column>
-                <column>
-                </column>
+            <column className="column-md-6 col-lg-6 col-xs-6">
+               <h5><a href = "https://evank311.github.io/ek-noteApp/" >Note Taking App</a></h5>
+                <img src={notes} id="pic6" className="PortPic img-fluid img-thumbnail" alt="screen of weather app"/>
+            </column>
         </row>
     </div>
   );
