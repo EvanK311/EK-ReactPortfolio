@@ -24,7 +24,15 @@
 }
 
 #pic1, #pic2, #pic3, #pic4, #pic5, #pic6 {
-    max-width:350px;
-    max-height:350px;
+    max-width:250px;
+    max-height:250px;
     border-radius: 30px
+}
+
+.marginbuff {
+    margin-top: 45px;
+}
+
+.center {
+    text-align: center;
 }
