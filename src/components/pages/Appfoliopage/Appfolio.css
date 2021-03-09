@@ -1,14 +1,24 @@
 .bigcontainer {
     color: burlywood;
     border-radius: 30px;
-    padding:30px;
+    padding: 20px;
     margin-bottom: 20vh;
     margin-left: 25vw;
     margin-right: 30vw;
-    margin-top: 15px;
+    margin-top: 10px;
     min-width: 200px;
     float:left;
     background-color: rgb(81, 88, 81)
+}
+
+h5, h1 {
+    text-align: center;
+    color:cornflowerblue;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 10px;
 }
 
 /* creating rounded images and borders */
@@ -24,17 +34,54 @@
     max-height: 350px;
 }
 
+.gitpic {
+    max-width: 20px;
+    max-width: 20px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+
+}
+
 #pic1, #pic2, #pic3, #pic4, #pic5, #pic6 {
     max-width:250px;
     max-height:250px;
     border-radius: 30px
 }
 
-/* margin buff used to create space for shorter pictures */
-.marginbuff {
-    margin-top: 45px;
+ /* margin buff used to create space for shorter pictures  */
+ .marginbuff {
+    margin-top: 15px;
+} 
+
+#pic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
-.center {
+#pic2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#pic3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#pic4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.desctext {
+    font-size: 12px;
     text-align: center;
 }
